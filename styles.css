@@ -73,11 +73,11 @@ header {
 }
 
 .hero-tagline {
-  margin: 0 0 24px;
+  margin: 0 0 20px;
   font-size: 1rem;
   max-width: 390px;
   color: #3e352e;
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
 .hero-icons {
@@ -118,7 +118,7 @@ header {
 
 .hero-about p {
   font-size: 1.05rem;
-  line-height: 1.9;
+  line-height: 1.65;
   margin-bottom: 28px;
 }
 
