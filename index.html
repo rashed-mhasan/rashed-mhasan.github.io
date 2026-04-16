@@ -4,23 +4,67 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rashed Hasan | Portfolio</title>
+
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome for Gmail, LinkedIn, GitHub -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Academicons for Google Scholar -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <header>
-    <div class="container hero" id="home">
-      <h1>Rashed Hasan</h1>
-      <p>
-        Computational Materials Scientist focused on molecular dynamics,
-        ligand-coated nanoparticles, self-assembly, thermodynamics,
-        and reproducible simulation workflows using LAMMPS and Python.
-      </p>
-      <div class="buttons">
-        <a href="#projects" class="btn btn-primary">View Projects</a>
-        <a href="cv.pdf" class="btn btn-secondary">Download CV</a>
+  <header id="home">
+    <div class="container hero-layout">
+
+      <div class="hero-image">
+        <!-- Put your image file in the same repo, or inside images/ folder -->
+        <img src="images/rashed-photo.jpg" alt="Rashed Hasan portrait">
       </div>
+
+      <div class="hero-content">
+        <h1>Rashed Hasan</h1>
+
+        <p class="hero-tagline">
+          Molecular Dynamics Simulation | Self-assembly of Nanoparticles |
+          Energy &amp; Mass transport | Phase transition | Polymer Science
+        </p>
+
+        <div class="hero-icons">
+          <a href="mailto:your@email.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="#" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/yourusername" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        <div class="hero-about">
+          <h2>About Me</h2>
+          <p>
+            I am a computational materials scientist working on molecular dynamics
+            simulations of nanoparticle systems, with a focus on ligand-mediated
+            interactions, colloidal stability, self-assembly, and free-energy analysis.
+          </p>
+          <p>
+            My work combines physics-based modeling, large-scale simulation,
+            and Python-based post-processing to understand how nanoscale structure
+            and molecular interactions control material behavior.
+          </p>
+          <p>
+            I am particularly interested in building reproducible workflows for
+            LAMMPS simulations, trajectory analysis, thermodynamic calculations,
+            and scientific automation for materials research.
+          </p>
+        </div>
+
+        <div class="buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="cv.pdf" class="btn btn-secondary">Download CV</a>
+        </div>
+      </div>
+
     </div>
   </header>
 
@@ -32,27 +76,6 @@
       <a href="#contact">Contact</a>
     </div>
   </nav>
-
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>
-        I am a computational materials scientist working on molecular dynamics
-        simulations of nanoparticle systems, with a focus on ligand-mediated
-        interactions, colloidal stability, self-assembly, and free-energy analysis.
-      </p>
-      <p>
-        My work combines physics-based modeling, large-scale simulation,
-        and Python-based post-processing to understand how nanoscale structure
-        and molecular interactions control material behavior.
-      </p>
-      <p>
-        I am particularly interested in building reproducible workflows for
-        LAMMPS simulations, trajectory analysis, thermodynamic calculations,
-        and scientific automation for materials research.
-      </p>
-    </div>
-  </section>
 
   <section id="skills">
     <div class="container">
