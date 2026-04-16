@@ -1,239 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rashed Hasan | Portfolio</title>
+<header id="home">
+  <div class="container hero-layout">
 
-  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <div class="hero-image">
+      <!-- Put your image file in the same repo, or inside images/ folder -->
+      <img src="images/rashed-photo.jpg" alt="Rashed Hasan portrait">
+    </div>
 
-  <!-- Font Awesome for Gmail, LinkedIn, GitHub -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <div class="hero-content">
+      <h1>Rashed Hasan</h1>
 
-  <!-- Academicons for Google Scholar -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+      <p class="hero-tagline">
+        Molecular Dynamics Simulation | Self-assembly of Nanoparticles |
+        Energy &amp; Mass transport | Phase transition | Polymer Science
+      </p>
 
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-  <header id="home">
-    <div class="container hero-layout">
-
-      <div class="hero-image">
-        <!-- Put your image file in the same repo, or inside images/ folder -->
-        <img src="images/rashed-photo.jpg" alt="Rashed Hasan portrait">
+      <div class="hero-icons">
+        <a href="mailto:your@email.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="#" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/yourusername" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
       </div>
 
-      <div class="hero-content">
-        <h1>Rashed Hasan</h1>
-
-        <p class="hero-tagline">
-          Molecular Dynamics Simulation | Self-assembly of Nanoparticles |
-          Energy &amp; Mass transport | Phase transition | Polymer Science
+      <div class="hero-about">
+        <h2>About Me</h2>
+        <p>
+          I am a computational materials scientist working on molecular dynamics
+          simulations of nanoparticle systems, with a focus on ligand-mediated
+          interactions, colloidal stability, self-assembly, and free-energy analysis.
         </p>
-
-        <div class="hero-icons">
-          <a href="mailto:your@email.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-          <a href="#" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="https://github.com/yourusername" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-        </div>
-
-        <div class="hero-about">
-          <h2>About Me</h2>
-          <p>
-            I am a computational materials scientist working on molecular dynamics
-            simulations of nanoparticle systems, with a focus on ligand-mediated
-            interactions, colloidal stability, self-assembly, and free-energy analysis.
-          </p>
-          <p>
-            My work combines physics-based modeling, large-scale simulation,
-            and Python-based post-processing to understand how nanoscale structure
-            and molecular interactions control material behavior.
-          </p>
-          <p>
-            I am particularly interested in building reproducible workflows for
-            LAMMPS simulations, trajectory analysis, thermodynamic calculations,
-            and scientific automation for materials research.
-          </p>
-        </div>
-
-        <div class="buttons">
-          <a href="#projects" class="btn btn-primary">View Projects</a>
-          <a href="cv.pdf" class="btn btn-secondary">Download CV</a>
-        </div>
+        <p>
+          My work combines physics-based modeling, large-scale simulation,
+          and Python-based post-processing to understand how nanoscale structure
+          and molecular interactions control material behavior.
+        </p>
+        <p>
+          I am particularly interested in building reproducible workflows for
+          LAMMPS simulations, trajectory analysis, thermodynamic calculations,
+          and scientific automation for materials research.
+        </p>
       </div>
 
-    </div>
-  </header>
-
-  <nav>
-    <div class="container">
-      <a href="#home">Home</a>
-      <a href="#projects">Projects</a>
-      <a href="#publications">Publications</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </nav>
-
-  <section id="skills">
-    <div class="container">
-      <h2>Research Areas & Technical Skills</h2>
-      <div class="two-column">
-        <div class="card">
-          <h3>Research Interests</h3>
-          <ul>
-            <li>Molecular dynamics simulations</li>
-            <li>Nanoparticle self-assembly</li>
-            <li>Ligand-mediated interactions</li>
-            <li>Colloidal stability</li>
-            <li>Free-energy and phase behavior</li>
-            <li>Computational materials design</li>
-          </ul>
-        </div>
-
-        <div class="card">
-          <h3>Technical Skills</h3>
-          <ul>
-            <li>LAMMPS</li>
-            <li>Python</li>
-            <li>NumPy, pandas, Matplotlib</li>
-            <li>Scientific data analysis</li>
-            <li>High-performance computing</li>
-            <li>Git and GitHub</li>
-          </ul>
-        </div>
+      <div class="buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="cv.pdf" class="btn btn-secondary">Download CV</a>
       </div>
     </div>
-  </section>
 
-  <section id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="card-grid">
-
-        <div class="card">
-          <h3>Ligand-Coated Nanoparticle Self-Assembly</h3>
-          <p>
-            Simulation study of how ligand coverage, solvent environment,
-            and nanoparticle interactions influence self-assembly and
-            superlattice formation.
-          </p>
-          <p>
-            This work connects nanoscale molecular behavior to the emergence
-            of ordered structures in nanoparticle systems.
-          </p>
-          <div class="tag-list">
-            <span class="tag">LAMMPS</span>
-            <span class="tag">Molecular Dynamics</span>
-            <span class="tag">Self-Assembly</span>
-          </div>
-          <p><a href="https://github.com/yourusername/project1">View Project</a></p>
-        </div>
-
-        <div class="card">
-          <h3>Bain Transformation Free-Energy Workflow</h3>
-          <p>
-            A computational workflow for analyzing FCC-to-BCC transformation
-            pathways in nanoparticle superlattices using pressure-tensor-based
-            work integration and structural analysis.
-          </p>
-          <p>
-            The project combines simulation data, thermodynamic integration,
-            and visualization to compare relative stability of crystal phases.
-          </p>
-          <div class="tag-list">
-            <span class="tag">Free Energy</span>
-            <span class="tag">Python</span>
-            <span class="tag">Phase Behavior</span>
-          </div>
-          <p><a href="https://github.com/yourusername/project2">View Project</a></p>
-        </div>
-
-        <div class="card">
-          <h3>LAMMPS Trajectory Analysis Tools</h3>
-          <p>
-            Python tools for post-processing trajectories, extracting
-            structural descriptors, computing orientational metrics,
-            and analyzing ligand behavior in nanoparticle systems.
-          </p>
-          <p>
-            These scripts are designed to improve reproducibility and
-            speed up interpretation of simulation outputs.
-          </p>
-          <div class="tag-list">
-            <span class="tag">Python</span>
-            <span class="tag">NumPy</span>
-            <span class="tag">Trajectory Analysis</span>
-          </div>
-          <p><a href="https://github.com/yourusername/project3">View Project</a></p>
-        </div>
-
-        <div class="card">
-          <h3>Simulation Automation and Post-Processing</h3>
-          <p>
-            Workflow tools for automating simulation setup, parsing outputs,
-            organizing data, and generating publication-quality plots for
-            molecular simulations.
-          </p>
-          <p>
-            This project highlights scientific coding practices for
-            scalable and reproducible computational research.
-          </p>
-          <div class="tag-list">
-            <span class="tag">Automation</span>
-            <span class="tag">Scientific Computing</span>
-            <span class="tag">Data Analysis</span>
-          </div>
-          <p><a href="https://github.com/yourusername/project4">View Project</a></p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <section id="publications">
-    <div class="container">
-      <h2>Publications & Presentations</h2>
-
-      <div class="publication">
-        <strong>The Colloidal Stability of Apolar Nanoparticles in Solvent Mixtures</strong><br>
-        ACS Nano, 2023<br>
-        <a href="#">Add DOI or paper link</a>
-      </div>
-
-      <div class="publication">
-        <strong>Stabilization of Apolar Nanoparticle Dispersions by Molecular Additives</strong><br>
-        Langmuir, 2024<br>
-        <a href="#">Add DOI or paper link</a>
-      </div>
-
-      <div class="presentation">
-        <strong>The Role of Dynamic Ligand Coverage in Nanoparticle Self-Assembly</strong><br>
-        Poster Presentation, Gordon Research Conference on Crystal Growth and Assembly, 2025
-      </div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <div class="card">
-        <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
-        <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
-        <p>LinkedIn: <a href="#">Add LinkedIn link</a></p>
-        <p>Google Scholar: <a href="#">Add Google Scholar link</a></p>
-        <p>CV: <a href="cv.pdf">Download CV</a></p>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <p>© 2026 Rashed Hasan | Built with GitHub Pages</p>
-    </div>
-  </footer>
-
-</body>
-</html>
+  </div>
+</header>
