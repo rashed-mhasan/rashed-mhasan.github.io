@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Lora", Georgia, serif;
@@ -24,20 +28,14 @@ header {
   border-bottom: 1px solid #d5c8b8;
 }
 
-.subpage-header {
-  padding: 50px 0 40px;
-}
-
-.hero h1,
-.subpage-header h1 {
+.hero h1 {
   margin: 0 0 12px;
   font-size: 2.8rem;
   letter-spacing: 0.2px;
   font-weight: 600;
 }
 
-.hero p,
-.subpage-header p {
+.hero p {
   margin: 0 0 24px;
   font-size: 1.05rem;
   max-width: 760px;
@@ -210,8 +208,7 @@ footer a {
     grid-template-columns: 1fr;
   }
 
-  .hero h1,
-  .subpage-header h1 {
+  .hero h1 {
     font-size: 2.15rem;
   }
 }
