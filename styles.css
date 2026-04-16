@@ -24,14 +24,14 @@ body {
 header {
   background: linear-gradient(135deg, #d8cec0, #cbbba8);
   color: #2b2622;
-  padding: 36px 0 44px;
+  padding: 38px 0 46px;
   border-bottom: 1px solid #d5c8b8;
 }
 
 .hero-layout {
   display: grid;
-  grid-template-columns: 420px 1fr;
-  gap: 42px;
+  grid-template-columns: 380px 1fr;
+  gap: 46px;
   align-items: start;
 }
 
@@ -46,17 +46,16 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-top: 0;
 }
 
 .hero-image {
   display: block;
-  margin-bottom: 26px;
+  margin-bottom: 22px;
 }
 
 .hero-image img {
   width: 100%;
-  max-width: 420px;
+  max-width: 360px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 22px;
@@ -65,19 +64,19 @@ header {
 }
 
 .hero-left h1 {
-  margin: 0 0 18px;
-  font-size: 3.2rem;
+  margin: 0 0 14px;
+  font-size: 3rem;
   letter-spacing: 0.2px;
   font-weight: 600;
-  line-height: 1.05;
+  line-height: 1.08;
 }
 
 .hero-tagline {
-  margin: 0 0 20px;
-  font-size: 1rem;
-  max-width: 390px;
+  margin: 0 0 18px;
+  font-size: 0.98rem;
+  max-width: 360px;
   color: #3e352e;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 .hero-icons {
@@ -111,19 +110,20 @@ header {
 
 .hero-about h2 {
   margin-top: 0;
-  margin-bottom: 22px;
-  font-size: 3rem;
-  line-height: 1.05;
+  margin-bottom: 18px;
+  font-size: 2.7rem;
+  line-height: 1.08;
 }
 
 .hero-about p {
-  font-size: 1.05rem;
-  line-height: 1.72;
-  margin-bottom: 28px;
+  font-size: 1.03rem;
+  line-height: 1.68;
+  margin-bottom: 18px;
+  max-width: 900px;
 }
 
 .buttons {
-  margin-top: 8px;
+  margin-top: 12px;
 }
 
 .btn {
@@ -286,7 +286,7 @@ footer a {
 @media (max-width: 1000px) {
   .hero-layout {
     grid-template-columns: 1fr;
-    gap: 34px;
+    gap: 32px;
   }
 
   .hero-left,
@@ -295,16 +295,12 @@ footer a {
     text-align: center;
   }
 
-  .hero-image {
-    margin-bottom: 22px;
-  }
-
   .hero-image img {
-    max-width: 280px;
+    max-width: 260px;
   }
 
   .hero-left h1 {
-    font-size: 2.4rem;
+    font-size: 2.35rem;
   }
 
   .hero-tagline {
@@ -316,7 +312,11 @@ footer a {
   }
 
   .hero-about h2 {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
+  }
+
+  .hero-about p {
+    max-width: 100%;
   }
 }
 
