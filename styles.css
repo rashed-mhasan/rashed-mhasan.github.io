@@ -50,7 +50,7 @@ header {
 
 .hero-image {
   display: block;
-  margin-bottom: 22px;
+  margin-bottom: 16px;
 }
 
 .hero-image img {
@@ -64,19 +64,19 @@ header {
 }
 
 .hero-left h1 {
-  margin: 0 0 14px;
-  font-size: 3rem;
+  margin: 0 0 10px;
+  font-size: 2.7rem;
   letter-spacing: 0.2px;
   font-weight: 600;
   line-height: 1.08;
 }
 
 .hero-tagline {
-  margin: 0 0 18px;
-  font-size: 0.98rem;
-  max-width: 360px;
+  margin: 0 0 14px;
+  font-size: 0.94rem;
+  max-width: 285px;
   color: #3e352e;
-  line-height: 1.55;
+  line-height: 1.5;
 }
 
 .hero-icons {
@@ -88,8 +88,8 @@ header {
 }
 
 .hero-icons a {
-  width: 42px;
-  height: 42px;
+  width: 38px;
+  height: 38px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -98,7 +98,7 @@ header {
   border: 1px solid #d8ccbe;
   border-radius: 50%;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
   transition: all 0.2s ease;
 }
 
