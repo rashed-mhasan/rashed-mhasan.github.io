@@ -55,12 +55,12 @@ header {
 
 .hero-image img {
   width: 100%;
-  max-width: 360px;
+  max-width: 285px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 22px;
+  border-radius: 18px;
   border: 1px solid #d7cab8;
-  box-shadow: 0 8px 24px rgba(80, 65, 50, 0.10);
+  box-shadow: 0 8px 24px rgba(80, 65, 50, 0.09);
 }
 
 .hero-left h1 {
