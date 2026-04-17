@@ -30,13 +30,14 @@ header {
 
 .hero-layout {
   display: grid;
-  grid-template-columns: 260px 560px;
+  grid-template-columns: 280px 560px;
   gap: 28px;
   align-items: start;
   justify-content: center;
 }
 
 .hero-left {
+  width: 280px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -50,7 +51,9 @@ header {
 }
 
 .hero-image {
-  display: block;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   margin-bottom: 14px;
 }
 
@@ -65,6 +68,7 @@ header {
 }
 
 .hero-left h1 {
+  width: 100%;
   margin: 0 0 10px;
   font-size: 2rem;
   letter-spacing: 0.2px;
@@ -75,6 +79,7 @@ header {
 }
 
 .hero-icons {
+  width: 100%;
   display: flex;
   gap: 12px;
   align-items: center;
@@ -289,6 +294,7 @@ footer a {
 
   .hero-left,
   .hero-right {
+    width: 100%;
     align-items: center;
     text-align: center;
   }
@@ -299,7 +305,7 @@ footer a {
 
   .hero-left h1 {
     font-size: 2.2rem;
-    white-space: normal;
+    white-space: nowrap;
     text-align: center;
   }
 
