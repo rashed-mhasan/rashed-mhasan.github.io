@@ -30,17 +30,17 @@ header {
 
 .hero-layout {
   display: grid;
-  grid-template-columns: 220px 560px;
+  grid-template-columns: 260px 560px;
   gap: 28px;
   align-items: start;
   justify-content: center;
 }
 
 .hero-left {
-  text-align: left;
+  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .hero-right {
@@ -71,13 +71,14 @@ header {
   font-weight: 600;
   line-height: 1.08;
   white-space: nowrap;
+  text-align: center;
 }
 
 .hero-icons {
   display: flex;
   gap: 12px;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   margin: 0;
 }
 
@@ -107,6 +108,7 @@ header {
   margin-bottom: 14px;
   font-size: 2.2rem;
   line-height: 1.08;
+  text-align: left;
 }
 
 .hero-about p {
@@ -114,7 +116,7 @@ header {
   line-height: 1.62;
   margin-bottom: 14px;
   max-width: 560px;
-  text-align: left;
+  text-align: left !important;
 }
 
 .buttons {
@@ -298,6 +300,7 @@ footer a {
   .hero-left h1 {
     font-size: 2.2rem;
     white-space: normal;
+    text-align: center;
   }
 
   .hero-icons {
@@ -306,11 +309,12 @@ footer a {
 
   .hero-about h2 {
     font-size: 2.1rem;
+    text-align: left;
   }
 
   .hero-about p {
     max-width: 100%;
-    text-align: left;
+    text-align: left !important;
   }
 }
 
