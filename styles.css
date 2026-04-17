@@ -29,25 +29,21 @@ header {
 }
 
 .hero-layout {
-  display: flex;
+  display: grid;
+  grid-template-columns: 220px 560px;
+  gap: 28px;
+  align-items: start;
   justify-content: center;
-  align-items: flex-start;
-  gap: 32px;
-  max-width: 860px;
-  margin: 0 auto;
 }
 
 .hero-left {
-  width: 220px;
   text-align: left;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  flex-shrink: 0;
 }
 
 .hero-right {
-  width: 560px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -69,19 +65,11 @@ header {
 }
 
 .hero-left h1 {
-  margin: 0 0 8px;
-  font-size: 1.8rem;
+  margin: 0 0 10px;
+  font-size: 2rem;
   letter-spacing: 0.2px;
   font-weight: 600;
   line-height: 1.08;
-}
-
-.hero-tagline {
-  margin: 0 0 12px;
-  font-size: 0.92rem;
-  max-width: 245px;
-  color: #3e352e;
-  line-height: 1.45;
 }
 
 .hero-icons {
@@ -116,7 +104,7 @@ header {
 .hero-about h2 {
   margin-top: 0;
   margin-bottom: 14px;
-  font-size: 2.35rem;
+  font-size: 2.2rem;
   line-height: 1.08;
 }
 
@@ -124,11 +112,7 @@ header {
   font-size: 1rem;
   line-height: 1.62;
   margin-bottom: 14px;
-  text-align: justify;
-}
-
-section p {
-  text-align: justify;
+  max-width: 560px;
 }
 
 .buttons {
@@ -294,15 +278,13 @@ footer a {
 
 @media (max-width: 1000px) {
   .hero-layout {
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: 1fr;
     gap: 28px;
-    max-width: 100%;
+    justify-content: normal;
   }
 
   .hero-left,
   .hero-right {
-    width: 100%;
     align-items: center;
     text-align: center;
   }
@@ -315,10 +297,6 @@ footer a {
     font-size: 2.2rem;
   }
 
-  .hero-tagline {
-    max-width: 100%;
-  }
-
   .hero-icons {
     justify-content: center;
   }
@@ -328,7 +306,6 @@ footer a {
   }
 
   .hero-about p {
-    text-align: justify;
     max-width: 100%;
   }
 }
