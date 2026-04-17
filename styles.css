@@ -29,24 +29,25 @@ header {
 }
 
 .hero-layout {
-  display: grid;
-  grid-template-columns: 180px 620px;
-  gap: 20px;
-  align-items: start;
-  width: fit-content;
-  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  max-width: 860px;
   margin: 0 auto;
 }
 
 .hero-left {
+  width: 220px;
   text-align: left;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 180px;
+  flex-shrink: 0;
 }
 
 .hero-right {
+  width: 560px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -59,7 +60,7 @@ header {
 
 .hero-image img {
   width: 100%;
-  max-width: 160px;
+  max-width: 190px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 16px;
@@ -123,7 +124,6 @@ header {
   font-size: 1rem;
   line-height: 1.62;
   margin-bottom: 14px;
-  max-width: 620px;
   text-align: justify;
 }
 
@@ -294,12 +294,15 @@ footer a {
 
 @media (max-width: 1000px) {
   .hero-layout {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: center;
     gap: 28px;
+    max-width: 100%;
   }
 
   .hero-left,
   .hero-right {
+    width: 100%;
     align-items: center;
     text-align: center;
   }
@@ -325,6 +328,7 @@ footer a {
   }
 
   .hero-about p {
+    text-align: justify;
     max-width: 100%;
   }
 }
