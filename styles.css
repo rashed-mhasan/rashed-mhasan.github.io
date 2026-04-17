@@ -33,7 +33,9 @@ header {
   grid-template-columns: 180px 620px;
   gap: 20px;
   align-items: start;
-  justify-content: center;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .hero-left {
@@ -121,6 +123,7 @@ header {
   line-height: 1.62;
   margin-bottom: 14px;
   max-width: 620px;
+  text-align: justify;
 }
 
 .buttons {
