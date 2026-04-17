@@ -30,9 +30,10 @@ header {
 
 .hero-layout {
   display: grid;
-  grid-template-columns: 180px 1fr;
-  gap: 12px;
+  grid-template-columns: 180px 620px;
+  gap: 20px;
   align-items: start;
+  justify-content: center;
 }
 
 .hero-left {
