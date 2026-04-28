@@ -247,6 +247,15 @@ h2 {
   gap: 24px;
 }
 
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #e2d8cb;
+  box-shadow: 0 4px 12px rgba(80, 65, 50, 0.06);
+}
+
 .publication,
 .presentation {
   background: #fbf8f3;
