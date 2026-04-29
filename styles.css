@@ -264,6 +264,16 @@ h2 {
   color: #5a5048;
   font-size: 0.95rem;
 }
+
+#skills .card ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+#skills .card li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
   
 .publication,
 .presentation {
