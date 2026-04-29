@@ -254,7 +254,17 @@ h2 {
   border: 1px solid #e2d8cb;
   box-shadow: 0 4px 12px rgba(80, 65, 50, 0.06);
 }
+  
+.project-link {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
 
+.project-link span {
+  color: #5a5048;
+  font-size: 0.95rem;
+}
+  
 .publication,
 .presentation {
   background: #fbf8f3;
