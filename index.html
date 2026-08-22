@@ -83,17 +83,23 @@
           </p>
         
           <p>
-            The project focuses on generating a diverse set of molecular configurations
-            that capture different local environments and structural arrangements,
-            followed by carefully converged first-principles single-point calculations
-            to obtain reliable reference energies and atomic forces.
+            The project begins by generating a diverse set of molecular configurations. 
+            These configurations are chosen to capture different local environments, molecular arrangements, 
+            and structural states that may appear during melting and crystallization.
           </p>
+
+          <p>
+            For each configuration, I perform carefully converged first-principles single-point calculations. 
+            These calculations provide reliable reference energies and atomic forces. 
+            The resulting dataset is then used to train a MACE machine-learned interatomic potential.
+          <p>
         
           <p>
-            These first-principles data are then used to train and validate a MACE
-            machine-learned interatomic potential, with the goal of enabling molecular
-            dynamics simulations that retain near first-principles accuracy while
-            reaching much larger time and length scales.
+            The trained model is validated against the underlying first-principles data to evaluate its accuracy 
+            and transferability. The broader goal is to use MACE for molecular dynamics simulations that retain 
+            near first-principles accuracy while reaching much larger time and length scales. This workflow is intended 
+            to enable detailed studies of molecular structure, melt behavior, crystallization pathways, and 
+            phase evolution in organic molecular systems.
           </p>
         
           <div class="tag-list">
