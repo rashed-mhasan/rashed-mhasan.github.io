@@ -457,3 +457,31 @@ footer a {
     padding: 22px;
   }
 }
+
+/* Wider About Me section on desktop */
+@media (min-width: 1001px) {
+  header .container {
+    width: 94%;
+    max-width: 1400px;
+  }
+
+  .hero-layout {
+    width: 100%;
+    grid-template-columns: 300px minmax(0, 1fr);
+    gap: 45px;
+  }
+
+  .hero-right {
+    width: 100%;
+    max-width: none;
+  }
+
+  .hero-about {
+    width: 100%;
+  }
+
+  .hero-about p {
+    width: 100%;
+    max-width: none;
+  }
+}
