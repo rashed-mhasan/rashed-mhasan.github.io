@@ -485,3 +485,64 @@ footer a {
     max-width: none;
   }
 }
+
+/* Wider layout + slightly tighter spacing */
+@media (min-width: 1001px) {
+  .container {
+    width: 94%;
+    max-width: 1400px;
+  }
+
+  .hero-layout {
+    width: 100%;
+    grid-template-columns: 300px minmax(0, 1fr);
+    gap: 45px;
+  }
+
+  .hero-right,
+  .hero-about,
+  .hero-about p {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+/* Slightly more compact vertical spacing */
+body {
+  line-height: 1.58;
+}
+
+section {
+  padding: 42px 0;
+}
+
+p {
+  line-height: 1.55;
+}
+
+.card {
+  padding: 22px 24px;
+}
+
+.card-grid {
+  gap: 20px;
+}
+
+.two-column {
+  gap: 20px;
+}
+
+#skills .two-column {
+  gap: 22px;
+}
+
+#skills li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.publication,
+.presentation {
+  padding: 15px 18px;
+  margin-bottom: 10px;
+}
